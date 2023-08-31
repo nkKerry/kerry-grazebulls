@@ -4,6 +4,7 @@ local starting = false
 local isPasturing = false
 local pasturingStartTime = 0
 local isFinish = false
+local lastNotificationTime = 0
 
 Citizen.CreateThread(function()
     for bullmenu, v in pairs(Config.Bull) do
@@ -337,7 +338,6 @@ end)
 
 function startPasturing()
     Citizen.CreateThread(function()
-	 local lastNotificationTime = 0
         while true do
             Citizen.Wait(10000)
             
