@@ -18,12 +18,12 @@ Config.BlipBull = {
 }
 
 Config.Bull = {
-    {name = 'Job: Shepherd', location = 'jobbull',  coords = vector3(1431.7305, 257.9637, 90.6866 -0.8),  showblip = true},
+    {name = 'Job: Shepherd', location = 'jobbull',  coords = vector3(1419.5846, 213.5414, 91.8749 -0.8),  showblip = true},
 }
 
 -- counted from these coordinates Config.ZoneDist
 Config.BullZone = {
-    vector3(1431.7305, 257.9637, 90.6866 - 0.8),
+    vector3(1419.5846, 213.5414, 91.8749 - 0.8),
 
 }
 
