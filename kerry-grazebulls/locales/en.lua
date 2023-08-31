@@ -25,6 +25,9 @@ local Translations = {
 	  to_graze = 'To graze',
 	  bull_stop = 'Stop',
       close_menu = 'Close'
+    },
+    primary = {
+	minutes_left = 'Minutes left: '
     }
 }
 
